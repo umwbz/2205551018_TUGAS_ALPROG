@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void header(){
+  printf("=========Menghituung luas Lingkaran========\n");
+ printf("\n");
  
 void luas() {
   float pi, r, luas;
@@ -11,6 +14,7 @@ void luas() {
 }
  
 int main(void){
+  header();
   luas();
    return 0;
 }
