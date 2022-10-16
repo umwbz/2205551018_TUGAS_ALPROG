@@ -1,6 +1,11 @@
 #include <stdio.h>
 
- 
+ void header() {
+  printf("=======Menghitung luas segitiga========\n");
+  printf("\n");
+ }
+  
+  
 void luas() {
   int a, t;
   float luas;
@@ -13,6 +18,7 @@ void luas() {
 }
  
 int main(void){
+  header();
   luas();
    return 0;
 }
