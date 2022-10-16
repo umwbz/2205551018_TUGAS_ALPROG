@@ -8,7 +8,8 @@ void luas() {
   scanf ("%d",&a);
   printf ("Masukkan panjang tinggi:\n");
   scanf ("%d",&t);
-  printf("Luas segitiga adalah = 0.5 * %i * %i = %.2f \n", a, t, luas);
+  luas = 0.5 * a * t;
+  printf("Luas segitiga adalah = %.2f \n", luas);
 }
  
 int main(void){
