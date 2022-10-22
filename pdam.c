@@ -101,13 +101,17 @@ int main (){
         pemakaian = bulan_ini - bulan_lalu;
         printf("jumlah pemakaian meter kubik air : %.2f m3\n", pemakaian);
 
-            if (pemakaian > 10){
+            if (pemakaian > 10 || pemakaian <= 20){
                 sisa = pemakaian - 10;
-                biaya = 50.00 + sisa * 10.00;
+                biaya = 1000.00 + sisa * 10.00;
                 printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
             }
-            else if (pemakaian <= 10 && pemakaian > 0){
-                biaya = 50.00;
+            else if (pemakaian <= 10 || pemakaian >= 0){
+                biaya = 500.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else if (pemakaian > 20){
+                biaya = 2250.00 + sisa * 10.00;
                 printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
             }
             else {
@@ -119,7 +123,7 @@ int main (){
             {
                 denda = 20.00;
             }
-            else if (pemakaian < 20)
+            else if (pemakaian < 10)
             {
                 denda = 10.00;
             }
@@ -142,13 +146,17 @@ int main (){
         pemakaian = bulan_ini - bulan_lalu;
         printf("jumlah pemakaian meter kubik air : %.2f m3\n", pemakaian);
 
-            if (pemakaian > 10){
+            if (pemakaian > 10 || pemakaian <= 20){
                 sisa = pemakaian - 10;
-                biaya = 50.00 + sisa * 10.00;
+                biaya = 1200.00 + sisa * 10.00;
                 printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
             }
-            else if (pemakaian <= 10 && pemakaian > 0){
-                biaya = 50.00;
+            else if (pemakaian <= 10 || pemakaian >= 0){
+                biaya = 500.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else if (pemakaian > 30){
+                biaya = 1900.00 + sisa * 10.00;
                 printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
             }
             else {
@@ -160,7 +168,7 @@ int main (){
             {
                 denda = 20.00;
             }
-            else if (pemakaian < 20)
+            else if (pemakaian < 10)
             {
                 denda = 10.00;
             }
@@ -183,13 +191,17 @@ int main (){
         pemakaian = bulan_ini - bulan_lalu;
         printf("jumlah pemakaian meter kubik air : %.2f m3\n", pemakaian);
 
-            if (pemakaian > 10){
+            if (pemakaian > 10 || pemakaian <= 20){
                 sisa = pemakaian - 10;
-                biaya = 50.00 + sisa * 10.00;
+                biaya = 3500.00 + sisa * 10.00;
                 printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
             }
-            else if (pemakaian <= 10 && pemakaian > 0){
-                biaya = 50.00;
+            else if (pemakaian <= 10 || pemakaian >= 0){
+                biaya = 1500.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else if (pemakaian > 20){
+                biaya = 6000.00 + sisa * 10.00;
                 printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
             }
             else {
@@ -201,7 +213,97 @@ int main (){
             {
                 denda = 20.00;
             }
-            else if (pemakaian < 20)
+            else if (pemakaian < 10)
+            {
+                denda = 10.00;
+            }
+            else {
+                denda = 0; 
+            }
+
+        printf("Denda                  : Rp %.2f\n", denda);
+        printf("Bpm                    : Rp %.2f\n", bpm);
+        printf("Biaya administrasi     : Rp %.2f\n", adm);
+
+        total = adm + bpm + biaya + denda;
+        printf("Total                  : Rp   %.2f\n",total);
+        break;
+    case 5 :
+        printf(" input pemakaian air bulan ini (m3) :\n");
+        scanf( "%f", &bulan_ini);
+        printf("Input pemakaian air bulan lalu (m3) :\n");
+        scanf("%f", &bulan_lalu);
+        pemakaian = bulan_ini - bulan_lalu;
+        printf("jumlah pemakaian meter kubik air : %.2f m3\n", pemakaian);
+
+            if (pemakaian > 10 || pemakaian <= 20){
+                sisa = pemakaian - 10;
+                biaya = 4000.00 + sisa * 10.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else if (pemakaian <= 10 || pemakaian >= 0){
+                biaya = 2300.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else if (pemakaian > 20){
+                biaya = 5500.00 + sisa * 10.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else {
+                biaya = 0;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            
+            if (pemakaian > 20)
+            {
+                denda = 20.00;
+            }
+            else if (pemakaian < 10)
+            {
+                denda = 10.00;
+            }
+            else {
+                denda = 0; 
+            }
+
+        printf("Denda                  : Rp %.2f\n", denda);
+        printf("Bpm                    : Rp %.2f\n", bpm);
+        printf("Biaya administrasi     : Rp %.2f\n", adm);
+
+        total = adm + bpm + biaya + denda;
+        printf("Total                  : Rp   %.2f\n",total);
+        break;
+    case 6 :
+        printf(" input pemakaian air bulan ini (m3) :\n");
+        scanf( "%f", &bulan_ini);
+        printf("Input pemakaian air bulan lalu (m3) :\n");
+        scanf("%f", &bulan_lalu);
+        pemakaian = bulan_ini - bulan_lalu;
+        printf("jumlah pemakaian meter kubik air : %.2f m3\n", pemakaian);
+
+           if (pemakaian > 10 || pemakaian <= 20){
+                sisa = pemakaian - 10;
+                biaya = 1500.00 + sisa * 10.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else if (pemakaian <= 10 || pemakaian >= 0){
+                biaya = 1000.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else if (pemakaian > 20){
+                biaya = 2500.00 + sisa * 10.00;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            else {
+                biaya = 0;
+                printf("Biaya pemakaian bulan ini : Rp %.2f\n", biaya);
+            }
+            
+            if (pemakaian > 20)
+            {
+                denda = 20.00;
+            }
+            else if (pemakaian < 10)
             {
                 denda = 10.00;
             }
