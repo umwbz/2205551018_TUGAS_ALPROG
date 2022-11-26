@@ -140,9 +140,9 @@ int A2 (){
 	printf("\n\t Masukkan tanggal pembayaran   :");
     tanggal = validasi(5);
     printf("\n\t Masukan Besar Pemakaian Bulan Sebelumnya (m^3)    :");
-    scanf("f",&bulan_lalu);
+    scanf("%f",&bulan_lalu);
     printf("\n\t Masukan Besar Pemakaian Saat Ini (m^3)  :");
-    scanf("f",&bulan_ini);
+    scanf("%f",&bulan_ini);
     pemakaian = bulan_ini - bulan_lalu;
     printf("\tjumlah pemakaian meter kubik air : %.2f m3", pemakaian);
             if (pemakaian > 10 || pemakaian <= 20){
@@ -210,9 +210,9 @@ int B2 (){
 	printf("\n\t Masukkan tanggal pembayaran   :");
     tanggal = validasi(5);
     printf("\n\t Masukan Besar Pemakaian Bulan Sebelumnya (m^3)    :");
-    scanf(".2f",&bulan_lalu);
+    scanf("%f",&bulan_lalu);
     printf("\n\t Masukan Besar Pemakaian Saat Ini (m^3)  :");
-    scanf(".2f",&bulan_ini);
+    scanf("%f",&bulan_ini);
     pemakaian = bulan_ini - bulan_lalu;
     printf("\tjumlah pemakaian meter kubik air : %.2f m3", pemakaian);
         if (pemakaian > 10 || pemakaian <= 20){
@@ -295,9 +295,9 @@ int A3(){
 	printf("\n\t Masukkan tanggal pembayaran   :");
     tanggal = validasi(5);
     printf("\n\t Masukan Besar Pemakaian Bulan Sebelumnya (m^3)    :");
-    scanf("f",&bulan_lalu);
+    scanf("%f",&bulan_lalu);
     printf("\n\t Masukan Besar Pemakaian Saat Ini (m^3)  :");
-    scanf("f",&bulan_ini);
+    scanf("%f",&bulan_ini);
     pemakaian = bulan_ini - bulan_lalu;
     printf("\tjumlah pemakaian meter kubik air : %.2f m3", pemakaian);
 
@@ -381,9 +381,9 @@ int B3(){
 	printf("\n\t Masukkan tanggal pembayaran   :");
     tanggal = validasi(5);
     printf("\n\t Masukan Besar Pemakaian Bulan Sebelumnya (m^3)    :");
-    scanf("f",&bulan_lalu);
+    scanf("%f",&bulan_lalu);
     printf("\n\t Masukan Besar Pemakaian Saat Ini (m^3)  :");
-    scanf("f",&bulan_ini);
+    scanf("%f",&bulan_ini);
     pemakaian = bulan_ini - bulan_lalu;
     printf("\tjumlah pemakaian meter kubik air : %.2f m3", pemakaian);
             if (pemakaian > 10 || pemakaian <= 20){
@@ -467,9 +467,9 @@ int C3 (){
 	printf("\n\t Masukkan tanggal pembayaran   :");
     tanggal = validasi(5);
     printf("\n\t Masukan Besar Pemakaian Bulan Sebelumnya (m^3)    :");
-    scanf("f",&bulan_lalu);
+    scanf("%f",&bulan_lalu);
     printf("\n\t Masukan Besar Pemakaian Saat Ini (m^3)  :");
-    scanf("f",&bulan_ini);
+    scanf("%f",&bulan_ini);
     pemakaian = bulan_ini - bulan_lalu;
     printf("\tjumlah pemakaian meter kubik air : %.2f m3", pemakaian);
             if (pemakaian > 10 || pemakaian <= 20){
@@ -552,9 +552,9 @@ int A4 (){
 	printf("\n\t Masukkan tanggal pembayaran   :");
     tanggal = validasi(5);
     printf("\n\t Masukan Besar Pemakaian Bulan Sebelumnya (m^3)    :");
-    scanf("f",&bulan_lalu);
+    scanf("%f",&bulan_lalu);
     printf("\n\t Masukan Besar Pemakaian Saat Ini (m^3)  :");
-    scanf("f",&bulan_ini);
+    scanf("%f",&bulan_ini);
     pemakaian = bulan_ini - bulan_lalu;
     printf("\tjumlah pemakaian meter kubik air : %.2f m3", pemakaian);
 
