@@ -14,7 +14,7 @@ void header(){
 void ending(){
     system ("cls");
     printf ("|----------------------------------|\n");
-    printf ("|==KAMSAHAMNIDA ATAS KUNJUNGANNYA==|\n");
+    printf ("|==========KAMSAHAMNIDA========= ==|\n");
     printf ("|------------ANNYEONG >_< ---------|\n");
     printf ("|----------------------------------|\n");
 
@@ -117,7 +117,7 @@ int menu (){
 		B3();
 	}else if(gol==5){
 		C3();
-	}else{
+	}else if (gol = 6){
 		A4();
     }
 }
@@ -179,10 +179,10 @@ int A2 (){
     total = adm + bpm + biaya + denda;
     fprintf(fptr,"\n\t TOTAL TAGIHAN              : Rp.%.2f", total);
     fclose(fptr);
-    printf("Apakah ingin mencoba kembali (y/n) ?");
+    printf("Apakah ingin mencoba kembali (y/n)\n ?");
     printf("1. ya\n");
     printf("0. no\n");
-    printf("pilih : \n");
+    printf("pilih : ");
     ulang = validasi(1);
 
     if (ulang == 1){
@@ -265,7 +265,7 @@ int B2 (){
     printf("Apakah ingin mencoba kembali (y/n) ?\n");
     printf("1. ya\n");
     printf("0. no\n");
-    printf("pilih : \n");
+    printf("pilih : ");
     ulang = validasi(1);
 
     if (ulang == 1){
@@ -352,7 +352,7 @@ int A3(){
     printf("Apakah ingin mencoba kembali (y/n) ?\n");
     printf("1. ya\n");
     printf("0. no\n");
-    printf("pilih : \n");
+    printf("pilih : ");
     ulang = validasi(1);
 
     if (ulang == 1){
@@ -434,10 +434,10 @@ int B3(){
     fprintf(fptr,"\n\t TOTAL TAGIHAN              : Rp.%.2f", total);
     fclose(fptr);
 
-    printf("Apakah ingin mencoba kembali (y/n) ?\n");
+    printf("Apakah ingin mencoba kembali (y/n) \n");
     printf("1. ya\n");
     printf("0. no\n");
-    printf("pilih : \n");
+    printf("pilih : ");
     ulang = validasi(1);
 
     if (ulang == 1){
@@ -522,7 +522,7 @@ int C3 (){
     printf("Apakah ingin mencoba kembali (y/n) ?\n");
     printf("1. ya\n");
     printf("0. no\n");
-    printf("pilih : \n");
+    printf("pilih : ");
     ulang = validasi(1);
 
     if (ulang == 1){
@@ -608,7 +608,7 @@ int A4 (){
     printf("Apakah ingin mencoba kembali (y/n) ?\n");
     printf("1. ya\n");
     printf("0. no\n");
-    printf("pilih : \n");
+    printf("pilih : ");
     ulang = validasi(1);
 
     if (ulang == 1){
