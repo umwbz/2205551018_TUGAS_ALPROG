@@ -1,0 +1,15 @@
+
+	=======================================================
+	||           T A G I H A N   P D A M                 ||
+	||                 GOLONGAN 2A                       ||
+	=======================================================
+	 GOLONGAN                   : 2A 
+	 Nama                       : sukmaw
+	 no rek. PDAM               : 1324
+	 Jumlah pemakaian  (m3)     : 100.00
+	 Tanggal pembayaran         : 4
+	 Biaya Administrasi         : Rp. 10.00
+	 Biaya pemeliharaan         : Rp. 20.00
+	 Biaya pemakaian(bulan ini) : Rp. 1500.00
+	=======================================================
+	 TOTAL TAGIHAN              : Rp.1530.00
